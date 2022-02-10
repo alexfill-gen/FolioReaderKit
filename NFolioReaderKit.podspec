@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "NFolioReaderKit"
-  s.version          = "2.0.0"
+  s.version          = "2.1.0"
   s.summary          = "A Swift ePub reader and parser framework for iOS."
   s.description  = <<-DESC
                    Written in Swift.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.dependency 'ZFDragableModalTransition', '0.6'
   s.dependency 'AEXML', '4.3.3'
   s.dependency 'FontBlaster', '4.1.0'
-  s.dependency 'RealmSwift', '10.5.1'
-  s.dependency 'Realm', '10.5.1'
+  s.dependency 'RealmSwift', '10.12.0'
+  s.dependency 'Realm', '10.12.0'
 
 end
